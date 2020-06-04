@@ -13,5 +13,5 @@ function buildHistogram(array){
 
 function canBuildNote(magazine, note){
   let magazineHistorgram = buildHistogram(magazine)
-  let noteArray = 
+  let noteArray =
 }
