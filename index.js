@@ -15,7 +15,7 @@ function canBuildNote(magazine, note){
   let magazineHistorgram = buildHistogram(magazine)
   let noteArray = note.split()
   let possible = true
-  for(letter of noteArray){
+  for(let letter of noteArray){
     if (magazineHistorgram[letter] > 0){
       magazineHistorgram[letter] -= 1
     }
