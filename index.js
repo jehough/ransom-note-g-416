@@ -13,7 +13,7 @@ function buildHistogram(array){
 
 function canBuildNote(magazine, note){
   let magazineHistorgram = buildHistogram(magazine)
-  let noteArray = note.split()
+  let noteArray = note.split('')
   let possible = true
   for(let letter of noteArray){
     if (magazineHistorgram[letter] > 0){
